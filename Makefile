@@ -17,7 +17,7 @@ $(FLOWTXT): $(FLOWS)
 	cat $(FLOWS) > $(FLOWTXT)
 
 open: $(TARGET)
-	open flow.png
+	open $(TARGET)
 
 clean:
 	rm -fr $(FLOWTXT)
